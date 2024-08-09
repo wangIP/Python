@@ -1,10 +1,3 @@
-import mplfinance as mf
-import pandas as pd
-import numpy as np
-import yfinance as yfin
-from datetime import date, timedelta,datetime
-#debug的時候要comment掉
-#matplotlib.use("TkAgg")
 def stock_drop(kabu_id,buy_date_s):   
     """用於繪製股票k線圖函數"""
     yfin.pdr_override()
